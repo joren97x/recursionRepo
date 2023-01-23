@@ -2,12 +2,12 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        int num[5];
+        int num[] = new int[5];
         for(int i = 0; i < num.length; i++) {
             num[i] = sc.nextInt();
         }
-        for (int num : num) {
-            System.out.println(factorial(num));
+        for (int numbers : num) {
+            System.out.println(factorial(numbers));
         }
         System.out.println("Hello Joren!");
         sc.close();
